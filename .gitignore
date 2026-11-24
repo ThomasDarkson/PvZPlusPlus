@@ -1,0 +1,6 @@
+export/
+tools/
+openfl/tools
+*.bat
+*.zip
+*.DS_Store

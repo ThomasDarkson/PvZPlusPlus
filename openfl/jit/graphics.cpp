@@ -1,0 +1,9 @@
+#define PVZ_DEFINE_GUIDS
+#include "config.hpp"
+#include "external.hpp"
+#include "crt-compat.hpp"
+#include "../../SexyAppFramework/DDInterface.cpp"
+#include "../../SexyAppFramework/D3DInterface.cpp"
+#include "../../SexyAppFramework/D3DTester.cpp"
+#include "../../SexyAppFramework/D3D8Helper.cpp"
+#include "../../SexyAppFramework/NativeDisplay.cpp"

@@ -1,0 +1,20 @@
+#include "config.hpp"
+#include "external.hpp"
+#include "crt-compat.hpp"
+#include "../../SexyAppFramework/AutoCrit.h"
+#include "../../SexyAppFramework/DDImage.cpp"
+#include "../../SexyAppFramework/Image.cpp"
+#include "../../SexyAppFramework/MemoryImage.cpp"
+#include "../../SexyAppFramework/Quantize.cpp"
+#include "../../SexyAppFramework/SharedImage.cpp"
+#include "../../SexyAppFramework/SDL3Image.cpp"
+
+#include "../../SexyAppFramework/Color.cpp"
+#include "../../SexyAppFramework/Font.cpp"
+#include "../../SexyAppFramework/Graphics.cpp"
+#include "../../SexyAppFramework/ImageFont.cpp"
+#include "../../SexyAppFramework/SysFont.cpp"
+#include "../../SexyAppFramework/SDL3Font.cpp"
+
+using std::max;
+#include "../../include/ImageLib/ImageLib.cpp"

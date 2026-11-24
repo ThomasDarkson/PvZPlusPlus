@@ -1,0 +1,4 @@
+{
+    "dlls_to_load": ["SDL3.dll", "SDL3_ttf.dll", "portaudio_x64.dll", "pvz_codecs.dll", "bass.dll"],
+    "change the array above to load more DLLs": null
+}

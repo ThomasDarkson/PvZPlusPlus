@@ -1,0 +1,6 @@
+#include "config.hpp"
+#include "external.hpp"
+#include "crt-compat.hpp"
+#include "../../Sexy.TodLib/Definition.cpp"
+#include "../../Sexy.TodLib/ReanimAtlas.cpp"
+#include "../../Sexy.TodLib/Reanimator.cpp"
