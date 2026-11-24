@@ -1,0 +1,37 @@
+<project>
+    <meta title="Plants vs Zombies++ 1.0.0" package="com.thomasdarkson.pvzscriptable" version="1.0.0" company="ThomasDarkson" />
+    <app main="Main" path="export" file="PvZ++" />
+    <source path="openfl/source" />
+    <haxelib name="openfl" />
+    <haxelib name="hxcpp_JIT" />
+    <haxelib name="HxSysInfo" />
+    <haxedef name="PVZ_GOTY_SHA256" value="5878326408285CB01F83B4FA4EDCC66D65E727F6D6EE88563B5B3B287DD259FC" />
+    <haxedef name="HXCPP_M64" />
+    <haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+    <window width="1280" height="720" fps="60" background="#000000" resizable="true" vsync="true" />
+    <icon path="openfl/branding/icon.png" size="256" />
+    <assets path="openfl/branding/icon.png" rename="pvz-default-icon.png" embed="true" />
+    <assets path="Lawn" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/Lawn" embed="false" />
+    <assets path="Sexy.TodLib" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/Sexy.TodLib" embed="false" />
+    <assets path="SexyAppFramework" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/SexyAppFramework" embed="false" />
+    <assets path="PakLib" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/PakLib" embed="false" />
+    <assets path="Editor/ParticleScreen.h" rename="pvz-src/Editor/ParticleScreen.h" embed="false" />
+    <assets path="include" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/include" embed="false" />
+    <assets path="openfl/jit" include="*.h|*.hpp|*.c|*.cpp|*.inc|*.inl" rename="pvz-src/openfl/jit" embed="false" />
+    <assets path="LawnApp.cpp" rename="pvz-src/LawnApp.cpp" embed="false" />
+    <assets path="LawnApp.h" rename="pvz-src/LawnApp.h" embed="false" />
+    <assets path="Resources.cpp" rename="pvz-src/Resources.cpp" embed="false" />
+    <assets path="Resources.h" rename="pvz-src/Resources.h" embed="false" />
+    <assets path="ConstEnums.h" rename="pvz-src/ConstEnums.h" embed="false" />
+    <assets path="GameConstants.h" rename="pvz-src/GameConstants.h" embed="false" />
+    <assets path="openfl/achievement-icons" exclude="final_rest.jpg|life_well_lived.jpg" rename="game-data/achievement-icons" embed="false" />
+    <assets path="openfl/widescreen-assets/menu" rename="game-data/widescreen-assets/menu" embed="false" />
+    <assets path="openfl/widescreen-assets/dialogs" exclude="cloudy_day_button.png|cloudy_day_button_hover.png|cloudy_day_button_pressed.png" rename="game-data/widescreen-assets/dialogs" embed="false" />
+    <assets path="openfl/widescreen-assets/zombie-trap" rename="game-data/widescreen-assets/zombie-trap" embed="false" />
+    <assets path="openfl/intro" rename="game-data/intro" embed="false" />
+    <assets path="openfl/runtime" rename="pvz-runtime" embed="false" />
+    <assets path="openfl/heavy-weapon" rename="game-data/heavy-weapon" embed="false" />
+    <assets path="openfl/game-data" rename="game-data" embed="false" />
+    <assets path="assets/dependency.pak" rename="game-data/dependency.pak" embed="false" />
+    <assets path="dlls.json" rename="dlls_are_here.json" embed="false" />
+</project>

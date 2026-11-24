@@ -1,0 +1,11 @@
+{
+  "source": "assets/videos/intro.mp4",
+  "source_sha256": "fd3515fe1ff35fe2561eeb0633bd0f44b3740adf9d054de85c68fc45d23eed9a",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 417,
+  "duration": 13.966,
+  "format": "PVZI1: 5-byte magic followed by little-endian x,y,w,h uint16 and payload length uint32; zlib-compressed opaque ARGB replacement rectangles",
+  "conversion": "Original decoded pixels, lossless rectangles; original audio decoded to PCM WAV; no generated artwork"
+}
